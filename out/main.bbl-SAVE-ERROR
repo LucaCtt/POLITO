@@ -1,0 +1,467 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{castangiaClusteringApplianceOperation2023}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f075d234229e62ef219b7da80d4aceb7}{%
+           family={Castangia},
+           familyi={C\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=053dbd830cd7805183c948f7c7999cc8}{%
+           family={Barletta},
+           familyi={B\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4718f510aee17c26834c51db533286e4}{%
+           family={Camarda},
+           familyi={C\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25d0ab8d8569a015e0f3bde3a1bb8638}{%
+           family={Quer},
+           familyi={Q\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bed14704cdb65a2b775fc02f917dc2b}{%
+           family={Macii},
+           familyi={M\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2278040541c21246afeed31dff40fbf}{%
+           family={Patti},
+           familyi={P\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c82a798483e3136a840516442362aa28}
+      \strng{fullhash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{bibnamehash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{authorbibnamehash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{authornamehash}{c82a798483e3136a840516442362aa28}
+      \strng{authorfullhash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In smart grids, consumers can be involved in demand response programs to reduce the total power consumption of their households during the peak hours of the day. Unfortunately, nowadays, utility companies are facing important challenges in the implementation of demand response programs because of their negative impact on the comfort of end-users. In this article, we cluster the different operation modes of household appliances based on the analysis of their power signatures. For this purpose, we implement an autoencoder neural network to create a better data representation of the power signatures. Then, we cluster the different operational programs by using a K-means algorithm fitted to the new data representation. To test our methodology, we study the operation modes of some washing machines and dishwashers whose power signatures were derived from both submeters and nonintrusive load monitoring techniques. Our clustering analysis reveals the existence of multiple working programs showing well-defined features in terms of both average energy consumption and duration. Our results can then be used to improve demand response programs by reducing their impact on the comfort of end-users. Furthermore, end-users can rely on our framework to favor lighter operation modes and reduce their overall energy consumption.}
+      \field{issn}{1551-3203, 1941-0050}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{IEEE Trans. Ind. Inf.}
+      \field{title}{Clustering {{Appliance Operation Modes With Unsupervised Deep Learning Techniques}}}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{19}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{8196\bibrangedash 8204}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TII.2022.3217495
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/RYQ7DS3J/Castangia et al. - 2023 - Clustering Appliance Operation Modes With Unsuperv.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9931436/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9931436/
+      \endverb
+    \endentry
+    \entry{kellyUKDALEDatasetDomestic2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=905fa4c85d3960c6f396ce73622174c4}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=135098a77e5408e14725d53603819c56}{%
+           family={Knottenbelt},
+           familyi={K\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{fullhash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{bibnamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authorbibnamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authornamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authorfullhash}{a73805694fcaec3a606c7ace360e476c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many countries are rolling out smart electricity meters. These measure a home’s total power demand. However, research into consumer behaviour suggests that consumers are best able to improve their energy efficiency when provided with itemised, appliance-by-appliance consumption information. Energy disaggregation is a computational technique for estimating appliance-by-appliance energy consumption from a whole-house meter signal. To conduct research on disaggregation algorithms, researchers require data describing not just the aggregate demand per building but also the ‘ground truth’ demand of individual appliances. In this context, we present UK-DALE: an open-access dataset from the UK recording Domestic Appliance-Level Electricity at a sample rate of 16\,kHz for the whole-house and at 1/6\,Hz for individual appliances. This is the first open access UK dataset at this temporal resolution. We recorded from five houses, one of which was recorded for 655 days, the longest duration we are aware of for any energy dataset at this sample rate. We also describe the low-cost, open-source, wireless system we built for collecting our dataset.}
+      \field{day}{31}
+      \field{issn}{2052-4463}
+      \field{issue}{1}
+      \field{journaltitle}{Scientific Data}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{Sci Data}
+      \field{title}{The {{UK-DALE}} Dataset, Domestic Appliance-Level Electricity Demand and Whole-House Demand from Five {{UK}} Homes}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{150007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/sdata.2015.7
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/G4SWEF6D/Kelly and Knottenbelt - 2015 - The UK-DALE dataset, domestic appliance-level elec.pdf;/home/luca/Zotero/storage/MD5E3ELS/Kelly and Knottenbelt - 2015 - The UK-DALE dataset, domestic appliance-level elec.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/sdata20157
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/sdata20157
+      \endverb
+      \keyw{Electrical and electronic engineering,Energy,Scientific data,Sustainability}
+    \endentry
+    \entry{monacchiGREENDEnergyConsumption2014}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=400905d7de379bc579e091a6f01d97eb}{%
+           family={Monacchi},
+           familyi={M\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c497c722ec1e5ccab5c616c8cf4c461}{%
+           family={Egarter},
+           familyi={E\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38ecca5a0ed5294071c7e8e3197856f}{%
+           family={Elmenreich},
+           familyi={E\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe4f48f76e4a15698044f6902ce0dd08}{%
+           family={D'Alessandro},
+           familyi={D\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e58a34e2fba38f8e4d326bf96083749a}{%
+           family={Tonello},
+           familyi={T\bibinitperiod},
+           given={Andrea\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{544643280e859393d1b0926af6919600}
+      \strng{fullhash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{bibnamehash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{authorbibnamehash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{authornamehash}{544643280e859393d1b0926af6919600}
+      \strng{authorfullhash}{b1349397ad5e9a255906d6caa74929a3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Home energy management systems can be used to monitor and optimize consumption and local production from renewable energy. To assess solutions before their deployment, researchers and designers of those systems demand for energy consumption datasets. In this paper, we present the GREEND dataset, containing detailed power usage information obtained through a measurement campaign in households in Austria and Italy. We provide a description of consumption scenarios and discuss design choices for the sensing infrastructure. Finally, we benchmark the dataset with state-of-the-art techniques in load disaggregation, occupancy detection and appliance usage mining.}
+      \field{eventtitle}{2014 {{IEEE International Conference}} on {{Smart Grid Communications}} ({{SmartGridComm}})}
+      \field{journaltitle}{2014 {{IEEE International Conference}} on {{Smart Grid Communications}} ({{SmartGridComm}})}
+      \field{month}{11}
+      \field{shorttitle}{{{GREEND}}}
+      \field{title}{{{GREEND}}: {{An}} Energy Consumption Dataset of Households in {{Italy}} and {{Austria}}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{511\bibrangedash 516}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SmartGridComm.2014.7007698
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/EYDN5WRB/Monacchi et al. - 2014 - GREEND An energy consumption dataset of household.pdf;/home/luca/Zotero/storage/NPN49492/7007698.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7007698?casa_token=LPFAm2aSOsEAAAAA:_Uox8IBJArdMcBbBqeq0LZOcySCr0R9S2LSHLQBzRMwXCHRit6urc_7PnV7em5qzYCnVbOniDQA
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7007698?casa_token=LPFAm2aSOsEAAAAA:_Uox8IBJArdMcBbBqeq0LZOcySCr0R9S2LSHLQBzRMwXCHRit6urc_7PnV7em5qzYCnVbOniDQA
+      \endverb
+      \keyw{Energy consumption,Floors,Green products,Hidden Markov models,Home appliances,Monitoring,TV}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{castangiaClusteringApplianceOperation2023}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f075d234229e62ef219b7da80d4aceb7}{%
+           family={Castangia},
+           familyi={C\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=053dbd830cd7805183c948f7c7999cc8}{%
+           family={Barletta},
+           familyi={B\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4718f510aee17c26834c51db533286e4}{%
+           family={Camarda},
+           familyi={C\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25d0ab8d8569a015e0f3bde3a1bb8638}{%
+           family={Quer},
+           familyi={Q\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bed14704cdb65a2b775fc02f917dc2b}{%
+           family={Macii},
+           familyi={M\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2278040541c21246afeed31dff40fbf}{%
+           family={Patti},
+           familyi={P\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c82a798483e3136a840516442362aa28}
+      \strng{fullhash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{bibnamehash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{authorbibnamehash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \strng{authornamehash}{c82a798483e3136a840516442362aa28}
+      \strng{authorfullhash}{307690b5094e2fc8b9bd99ec2ee86c38}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In smart grids, consumers can be involved in demand response programs to reduce the total power consumption of their households during the peak hours of the day. Unfortunately, nowadays, utility companies are facing important challenges in the implementation of demand response programs because of their negative impact on the comfort of end-users. In this article, we cluster the different operation modes of household appliances based on the analysis of their power signatures. For this purpose, we implement an autoencoder neural network to create a better data representation of the power signatures. Then, we cluster the different operational programs by using a K-means algorithm fitted to the new data representation. To test our methodology, we study the operation modes of some washing machines and dishwashers whose power signatures were derived from both submeters and nonintrusive load monitoring techniques. Our clustering analysis reveals the existence of multiple working programs showing well-defined features in terms of both average energy consumption and duration. Our results can then be used to improve demand response programs by reducing their impact on the comfort of end-users. Furthermore, end-users can rely on our framework to favor lighter operation modes and reduce their overall energy consumption.}
+      \field{issn}{1551-3203, 1941-0050}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{IEEE Trans. Ind. Inf.}
+      \field{title}{Clustering {{Appliance Operation Modes With Unsupervised Deep Learning Techniques}}}
+      \field{urlday}{17}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{19}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{8196\bibrangedash 8204}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TII.2022.3217495
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/RYQ7DS3J/Castangia et al. - 2023 - Clustering Appliance Operation Modes With Unsuperv.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9931436/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9931436/
+      \endverb
+    \endentry
+    \entry{kellyUKDALEDatasetDomestic2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=905fa4c85d3960c6f396ce73622174c4}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=135098a77e5408e14725d53603819c56}{%
+           family={Knottenbelt},
+           familyi={K\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{fullhash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{bibnamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authorbibnamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authornamehash}{a73805694fcaec3a606c7ace360e476c}
+      \strng{authorfullhash}{a73805694fcaec3a606c7ace360e476c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many countries are rolling out smart electricity meters. These measure a home’s total power demand. However, research into consumer behaviour suggests that consumers are best able to improve their energy efficiency when provided with itemised, appliance-by-appliance consumption information. Energy disaggregation is a computational technique for estimating appliance-by-appliance energy consumption from a whole-house meter signal. To conduct research on disaggregation algorithms, researchers require data describing not just the aggregate demand per building but also the ‘ground truth’ demand of individual appliances. In this context, we present UK-DALE: an open-access dataset from the UK recording Domestic Appliance-Level Electricity at a sample rate of 16\,kHz for the whole-house and at 1/6\,Hz for individual appliances. This is the first open access UK dataset at this temporal resolution. We recorded from five houses, one of which was recorded for 655 days, the longest duration we are aware of for any energy dataset at this sample rate. We also describe the low-cost, open-source, wireless system we built for collecting our dataset.}
+      \field{day}{31}
+      \field{issn}{2052-4463}
+      \field{issue}{1}
+      \field{journaltitle}{Scientific Data}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{Sci Data}
+      \field{title}{The {{UK-DALE}} Dataset, Domestic Appliance-Level Electricity Demand and Whole-House Demand from Five {{UK}} Homes}
+      \field{urlday}{2}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{150007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/sdata.2015.7
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/G4SWEF6D/Kelly and Knottenbelt - 2015 - The UK-DALE dataset, domestic appliance-level elec.pdf;/home/luca/Zotero/storage/MD5E3ELS/Kelly and Knottenbelt - 2015 - The UK-DALE dataset, domestic appliance-level elec.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/sdata20157
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/sdata20157
+      \endverb
+      \keyw{Electrical and electronic engineering,Energy,Scientific data,Sustainability}
+    \endentry
+    \entry{monacchiGREENDEnergyConsumption2014}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=400905d7de379bc579e091a6f01d97eb}{%
+           family={Monacchi},
+           familyi={M\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c497c722ec1e5ccab5c616c8cf4c461}{%
+           family={Egarter},
+           familyi={E\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e38ecca5a0ed5294071c7e8e3197856f}{%
+           family={Elmenreich},
+           familyi={E\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe4f48f76e4a15698044f6902ce0dd08}{%
+           family={D'Alessandro},
+           familyi={D\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e58a34e2fba38f8e4d326bf96083749a}{%
+           family={Tonello},
+           familyi={T\bibinitperiod},
+           given={Andrea\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{544643280e859393d1b0926af6919600}
+      \strng{fullhash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{bibnamehash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{authorbibnamehash}{b1349397ad5e9a255906d6caa74929a3}
+      \strng{authornamehash}{544643280e859393d1b0926af6919600}
+      \strng{authorfullhash}{b1349397ad5e9a255906d6caa74929a3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Home energy management systems can be used to monitor and optimize consumption and local production from renewable energy. To assess solutions before their deployment, researchers and designers of those systems demand for energy consumption datasets. In this paper, we present the GREEND dataset, containing detailed power usage information obtained through a measurement campaign in households in Austria and Italy. We provide a description of consumption scenarios and discuss design choices for the sensing infrastructure. Finally, we benchmark the dataset with state-of-the-art techniques in load disaggregation, occupancy detection and appliance usage mining.}
+      \field{eventtitle}{2014 {{IEEE International Conference}} on {{Smart Grid Communications}} ({{SmartGridComm}})}
+      \field{journaltitle}{2014 {{IEEE International Conference}} on {{Smart Grid Communications}} ({{SmartGridComm}})}
+      \field{month}{11}
+      \field{shorttitle}{{{GREEND}}}
+      \field{title}{{{GREEND}}: {{An}} Energy Consumption Dataset of Households in {{Italy}} and {{Austria}}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{511\bibrangedash 516}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SmartGridComm.2014.7007698
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/EYDN5WRB/Monacchi et al. - 2014 - GREEND An energy consumption dataset of household.pdf;/home/luca/Zotero/storage/NPN49492/7007698.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7007698?casa_token=LPFAm2aSOsEAAAAA:_Uox8IBJArdMcBbBqeq0LZOcySCr0R9S2LSHLQBzRMwXCHRit6urc_7PnV7em5qzYCnVbOniDQA
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7007698?casa_token=LPFAm2aSOsEAAAAA:_Uox8IBJArdMcBbBqeq0LZOcySCr0R9S2LSHLQBzRMwXCHRit6urc_7PnV7em5qzYCnVbOniDQA
+      \endverb
+      \keyw{Energy consumption,Floors,Green products,Hidden Markov models,Home appliances,Monitoring,TV}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

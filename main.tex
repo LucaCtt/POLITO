@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt]{article} % Foglio a4, font size 12, solo fronte
+\usepackage[utf8]{inputenc} % Codifica caratteri
+\usepackage[includehead, inner=2.0cm, outer=2.0cm, top=2.0cm, bottom=2.5cm]{geometry}
+\usepackage{charter} % Text font
+\usepackage{blkarray, bigstrut, amssymb} % Checkmark e altri simboli
+\usepackage{graphicx, wrapfig, lipsum} % Per inserire immagini
+\usepackage{float} % Per controllare il posizionamento di immagini e tabelle
+\usepackage{booktabs} % Per tabelle più belle
+\usepackage[bottom]{footmisc} % Footer in fondo alla pagina
+\usepackage{subcaption} % Subfigures e subcaptions
+\usepackage[section]{placeins} % Force all floats before section end
+\usepackage{mathtools}
+\usepackage{multirow} % For table cells on multiple rows
+\usepackage{tabularray}
+
+% URL
+\usepackage[hidelinks]{hyperref} % Per inserire URL
+\usepackage{xurl} % Per spezzare URL a capo
+
+% Liste
+\usepackage{enumitem} % Per inserire liste
+\usepackage{siunitx} % Per usare \setitemize
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt} % itemize più compatto
+
+% Captions
+\usepackage[font=small,textformat=period]{caption}
+\captionsetup{justification=centering}
+
+% Bibliografia
+\usepackage[backend=biber, style=apa, uniquelist=false]{biblatex} % Bibliografia su un file a parte
+\addbibresource{refs.bib} % File contentente la bibliografia
+
+% Formato capitoli
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{\parskip}{0pt}
+\titleformat*{\section}{\centering\large\bfseries}
+
+
+% Spaziature
+\linespread{1.5} % Interlinea
+\setlength{\parindent}{0pt} % No spazio prima dei paragrafi
+\setlength{\parskip}{1em} % Spazio tra paragrafi
+
+\newcommand{\charactercount}[1]{
+\immediate\write18{
+    expr `texcount -1 -sum -merge #1.tex` + `texcount -1 -sum -merge -char #1.tex` - 1 
+    > chars.txt
+}\input{chars.txt}}
+
+% Glossary
+\usepackage[acronym]{glossaries}
+\newacronym{dt}{DT}{Digital Twin}
+\newacronym{eud}{EUD}{End-User Development}
+\newacronym{ml}{ML}{Machine Learning}
+\newacronym{iot}{IoT}{Internet of Things}
+\newacronym{rest}{REST}{Representational State Transfer}
+\newacronym{api}{API}{Application Programming Interface}
+
+\title{Study and Development of a Digital Twin for the Simulation of User-Created Automations in a Green Smart Home}
+\author{Luca Cotti}
+\date{June 2024}
+
+\let\endtitlepage\relax
+
+\begin{document}
+\hyphenpenalty=2000 % Meno probabile lo spezzamento delle parole a capo
+
+\begin{titlepage}
+    \begin{center}
+        \Large{\textbf{Study and Development of a Digital Twin for the Simulation of User-Created Automations in a Green Smart Home}}\\
+        
+        \vspace{4mm}
+    
+        \normalsize{Supervisors: Prof. Barbara Rita Barricelli, Prof. Daniela Fogli}\\
+        
+        \vspace{4mm}
+    
+        \normalsize{Author: Luca Cotti}\\
+    \end{center}
+\end{titlepage}
+
+\input{abstract}
+
+\printbibliography[heading=bibintoc] % Bibliografia nell'indice
+
+\end{document}
