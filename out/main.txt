@@ -1,0 +1,94 @@
+Study and Development of a Digital Twin for the Simulation of
+User-Created Automations in a Green Smart Home
+Supervisors: Prof. Barbara Rita Barricelli, Prof. Daniela Fogli
+Author: Luca Cotti
+
+Abstract
+This thesis explores the design and implementation of a Digital Twin (DT) for a green smart home, integrating
+End-User Development (EUD) with Machine Learning (ML) algorithms. EUD approaches enable users to control
+and manage their Internet of Things (IoT) environments (Barricelli et al., 2019), e.g. using trigger-action
+routines created through Amazon Alexa, Google Home, and Apple Home applications. In the current era of
+IoT, the creation of automatic behaviors like routines may have a significant potential to develop effective
+energy management systems for homes. Furthermore, IoT can be combined with ML algorithms to create a DT,
+which is a powerful tool for modeling and optimizing complex systems.
+The DT developed in this thesis enhances energy consumption awareness by allowing users to monitor the
+energy consumption of smart appliances throghout the day and simulate scenarios related to the creation of
+routines. These simulations assess the effects of the activation of appliances involved in the routines and
+potentially modify them to save energy based on the DT’s suggestions.
+The DT is implemented as a Representational State Transfer (REST) Application Programming Interface (API)
+that exposes endpoints for accessing and manipulating the data and routines of the smart home, displaying the
+energy consumption of the appliances over time, and simulating the effects of adding new routines and resolving
+potential conflicts with the existing ones. The API separates the DT logic from the user interface, enabling the
+DT to be integrated with various clients. A web frontend was also developed to showcase the functionalities of
+the DT. The functionality of the DT is based on a list of appliances in the home with the supported operation
+modes (e.g., washing modes for a washing machine, or on/off for a lamp), along with a set of routines which
+activate the appliances to certain operation modes at specific times during the day.
+An hypothetical home was designed as a starting point for the creation of the DT, containing appliances
+extracted from the GREEND1 (Monacchi et al., 2014) and UK-DALE2 (Kelly & Knottenbelt, 2015) power consumption datasets. These datasets were selected through a scoping review among power consumption datasets
+available in the literature, because of the large number of appliances gathered in European households they
+provide. This is important to minimize geographic variations in appliance usage patterns and to produce results
+that are relevant for Italian households. The selected datasets however do not record the operation mode of
+appliances. For example, a washing machine could be in a certain wash program at a given time, which has a
+1 https://www.andreatonello.com/greend-energy-metering-data-set/
+2 https://jack-kelly.com/data/
+
+Figure 1: High level procedure for identifying the operation modes of appliances.
+
+specific duration and energy requirement. This information is required to assign a specific energy consumption
+value to the operation modes and to estimate their duration.
+This limitation is overcome with an approach inspired by Castangia et al., 2023, which suggests using unsupervised deep learning techniques to cluster appliance operation modes from a learned, latent state representation
+of the raw data. Figure 1 illustrates the main steps of the approach. First, a segmentation procedure is applied
+to the raw appliance data to identify the active states that contain the actual power signatures of the device.
+These signatures are then standardized and fed to a deep autoencoder model, which learns to reconstruct the
+operation cycles and encode them into a latent representation. Next, a K-means clustering algorithm is applied
+to the latent representation, to group the operation cycles into different programs of the device. Finally, the
+clusters are mapped to the operation modes of the appliance.
+The DT uses the identified operation modes and the user-defined routines to create a state matrix of the smart
+home throughout the day. Figure 2 shows an example of a state matrix, displaying the operation modes of
+the appliances in the hypothetical home throughout the day, based on a predefined set of routines. When a
+user wants to create a new routine to manage their appliances, the DT allows them to simulate what would
+happen in case of its activation, by returning different types of feedback associated with different scenarios. The
+state matrix makes it straightforward to simulate the addition of a new automation and check if any previously
+mentioned scenarios occur. The process starts by creating a copy of the current state matrix and by updating
+it with the new appliance states of the automation under creation. During simulation, the following conflict
+scenarios may happen:
+• The power consumption exceeds the energy meter load capacity: the routine can not be executed because
+it includes an appliance activation that will bring the total energy consumption over the maximum load
+capacity for the energy meter (in Italy it is commonly set to 3kWH for domestic use). The DT provides
+suggestions on how the automation could be modified. For example, its activation could be postponed
+after an appliance involved in another automation has completed its operation;
+• Inconsist operation modes: the automation under creation includes the activation of an appliance in a
+given operation mode (e.g., for a washing machine, a short sports cycle), but there is another automation
+scheduled on the same appliance with a different operation mode in an overlapping time slot. The DT
+may present the user with different options: the deletion of one of the two conflicting automations or the
+modification of one of them;
+• No conflict, but a suggestion to be more sustainable: the DT may suggest reducing energy consumption
+costs, avoiding cases of non-sustainable appliance activation. The DT also looks for the best activation
+time slot for the automation, taking into account the energy cost of starting the automation at every
+
+2
+
+Figure 2: Example of a state matrix.
+
+minute of the day
+This research is significant as it contributes to the development of a new paradigm for smart and sustainable
+living, and advances both theoretical and practical knowledge of DTs in the building sector.
+
+References
+Barricelli, B. R., Cassano, F., Fogli, D., & Piccinno, A. (2019). End-user development, end-user programming
+and end-user software engineering: A systematic mapping study. Journal of Systems and Software, 149,
+101–137. https://doi.org/10.1016/j.jss.2018.11.041
+Castangia, M., Barletta, N., Camarda, C., Quer, S., Macii, E., & Patti, E. (2023). Clustering Appliance Operation
+Modes With Unsupervised Deep Learning Techniques. IEEE Transactions on Industrial Informatics, 19(7),
+8196–8204. https://doi.org/10.1109/TII.2022.3217495
+Kelly, J., & Knottenbelt, W. (2015). The UK-DALE dataset, domestic appliance-level electricity demand and
+whole-house demand from five UK homes. Scientific Data, 2(1), 150007. https://doi.org/10.1038/
+sdata.2015.7
+Monacchi, A., Egarter, D., Elmenreich, W., D’Alessandro, S., & Tonello, A. M. (2014). GREEND: An energy
+consumption dataset of households in Italy and Austria. 2014 IEEE International Conference on Smart
+Grid Communications (SmartGridComm), 511–516. https://doi.org/10.1109/SmartGridComm.2014.
+7007698
+
+3
+
+

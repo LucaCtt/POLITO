@@ -19,6 +19,77 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{barricelliEnduserDevelopmentEnduser2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d4fc699d921a6be3c5b11bfd47eb328f}{%
+           family={Barricelli},
+           familyi={B\bibinitperiod},
+           given={Barbara\bibnamedelima Rita},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ddae004b4c84f613588e7177dfed5fe}{%
+           family={Cassano},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc2adcb9c2e4768a9f1bdb31a3c7aa8f}{%
+           family={Fogli},
+           familyi={F\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0364c6a114189e5090fe8c8a82dc9393}{%
+           family={Piccinno},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dc5e830239795de1febb1225bcb55c2}
+      \strng{fullhash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{bibnamehash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{authorbibnamehash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{authornamehash}{9dc5e830239795de1febb1225bcb55c2}
+      \strng{authorfullhash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{End-User Development (EUD), End-Programming (EUP) and End-User Software Engineering (EUSE) are three related research fields that study methods and techniques for empowering end users to modify and create digital artifacts. This paper presents a systematic mapping study aimed at identifying and classifying scientific literature about EUD, EUP and EUSE in the time range January 2000–May 2017. We selected 165 papers found through a manual selection of papers from specific conferences, journal special issues, and books, integrated with an automatic search on the most important digital libraries. The answer to our research question was built through a classification of the selected papers on seven dimensions: type of approach, interaction technique, phase in which the approach is adopted, application domain, target use, class of users, and type of evaluation. Our findings suggest that EUD, EUP and EUSE are active research topics not only in Human–Computer Interaction, but also in other research communities. However, little cross-fertilization exists among the three themes, as well as unifying frameworks and approaches for guiding novice designers and practitioners. Other findings highlight trends and gaps related to the analysis’ dimensions, which have implications on the design of future tools and suggest open issues for further investigations.}
+      \field{day}{1}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{3}
+      \field{shortjournal}{Journal of Systems and Software}
+      \field{shorttitle}{End-User Development, End-User Programming and End-User Software Engineering}
+      \field{title}{End-User Development, End-User Programming and End-User Software Engineering: {{A}} Systematic Mapping Study}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{149}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{101\bibrangedash 137}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1016/j.jss.2018.11.041
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/GJZ3FJMF/Barricelli et al. - 2019 - End-user development, end-user programming and end.pdf;/home/luca/Zotero/storage/ENPTBBGM/S0164121218302577.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121218302577
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121218302577
+      \endverb
+      \keyw{End-user development,End-user programming,End-user software engineering,Systematic mapping study}
+    \endentry
     \entry{castangiaClusteringApplianceOperation2023}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=f075d234229e62ef219b7da80d4aceb7}{%
@@ -241,6 +312,77 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{barricelliEnduserDevelopmentEnduser2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d4fc699d921a6be3c5b11bfd47eb328f}{%
+           family={Barricelli},
+           familyi={B\bibinitperiod},
+           given={Barbara\bibnamedelima Rita},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ddae004b4c84f613588e7177dfed5fe}{%
+           family={Cassano},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc2adcb9c2e4768a9f1bdb31a3c7aa8f}{%
+           family={Fogli},
+           familyi={F\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0364c6a114189e5090fe8c8a82dc9393}{%
+           family={Piccinno},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dc5e830239795de1febb1225bcb55c2}
+      \strng{fullhash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{bibnamehash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{authorbibnamehash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \strng{authornamehash}{9dc5e830239795de1febb1225bcb55c2}
+      \strng{authorfullhash}{19178e33b4e7c4b51e2c720b201ec65a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{End-User Development (EUD), End-Programming (EUP) and End-User Software Engineering (EUSE) are three related research fields that study methods and techniques for empowering end users to modify and create digital artifacts. This paper presents a systematic mapping study aimed at identifying and classifying scientific literature about EUD, EUP and EUSE in the time range January 2000–May 2017. We selected 165 papers found through a manual selection of papers from specific conferences, journal special issues, and books, integrated with an automatic search on the most important digital libraries. The answer to our research question was built through a classification of the selected papers on seven dimensions: type of approach, interaction technique, phase in which the approach is adopted, application domain, target use, class of users, and type of evaluation. Our findings suggest that EUD, EUP and EUSE are active research topics not only in Human–Computer Interaction, but also in other research communities. However, little cross-fertilization exists among the three themes, as well as unifying frameworks and approaches for guiding novice designers and practitioners. Other findings highlight trends and gaps related to the analysis’ dimensions, which have implications on the design of future tools and suggest open issues for further investigations.}
+      \field{day}{1}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{3}
+      \field{shortjournal}{Journal of Systems and Software}
+      \field{shorttitle}{End-User Development, End-User Programming and End-User Software Engineering}
+      \field{title}{End-User Development, End-User Programming and End-User Software Engineering: {{A}} Systematic Mapping Study}
+      \field{urlday}{16}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{149}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{101\bibrangedash 137}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1016/j.jss.2018.11.041
+      \endverb
+      \verb{file}
+      \verb /home/luca/Zotero/storage/GJZ3FJMF/Barricelli et al. - 2019 - End-user development, end-user programming and end.pdf;/home/luca/Zotero/storage/ENPTBBGM/S0164121218302577.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121218302577
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121218302577
+      \endverb
+      \keyw{End-user development,End-user programming,End-user software engineering,Systematic mapping study}
+    \endentry
     \entry{castangiaClusteringApplianceOperation2023}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=f075d234229e62ef219b7da80d4aceb7}{%
