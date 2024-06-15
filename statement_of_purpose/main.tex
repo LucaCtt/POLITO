@@ -1,0 +1,44 @@
+\documentclass[a4paper,10pt]{article} % Foglio a4, font size 12, solo fronte
+\usepackage[utf8]{inputenc} % Codifica caratteri
+\usepackage[includehead, inner=2.0cm, outer=2.0cm, top=2.0cm, bottom=2.5cm]{geometry}
+\usepackage{charter} % Text font
+\usepackage{graphicx, wrapfig, lipsum} % Per inserire immagini
+\usepackage{float} % Per controllare il posizionamento di immagini e tabelle
+\usepackage[bottom]{footmisc} % Footer in fondo alla pagina
+
+% URL
+\usepackage[hidelinks]{hyperref} % Per inserire URL
+\usepackage{xurl} % Per spezzare URL a capo
+
+% Formato sezioni
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{\parskip}{0pt}
+\titleformat*{\section}{\centering\large\bfseries}
+
+% Spaziature
+\linespread{1.5} % Interlinea
+\setlength{\parindent}{0pt} % No spazio prima dei paragrafi
+\setlength{\parskip}{1em} % Spazio tra paragrafi
+
+\title{Statement of Purpose for PhD in Computer and System Engineering}
+\author{Luca Cotti}
+\date{June 2024}
+
+\let\endtitlepage\relax
+
+\begin{document}
+\hyphenpenalty=2000 % Meno probabile lo spezzamento delle parole a capo
+
+\begin{titlepage}
+    \begin{center}
+        \Large{\textbf{Statement of Purpose for PhD in Computer and System Engineering}}\\
+
+        \vspace{4mm}
+    
+        \normalsize{Luca Cotti, June 2024}\\
+    \end{center}
+\end{titlepage}
+
+\input{sop}
+
+\end{document}
