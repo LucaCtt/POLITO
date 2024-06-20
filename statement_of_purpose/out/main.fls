@@ -139,15 +139,12 @@ INPUT ./sop.tex
 INPUT ./sop.tex
 INPUT ./sop.tex
 INPUT sop.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT out/main.aux
 INPUT out/main.out
 INPUT out/main.out

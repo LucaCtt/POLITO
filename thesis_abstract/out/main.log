@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  13 JUN 2024 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  18 JUN 2024 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -898,13 +898,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  28218 strings out of 476076
  545206 string characters out of 5793775
- 1941187 words of memory out of 5000000
+ 1940187 words of memory out of 5000000
  49971 multiletter control sequences out of 15000+600000
  576339 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  94i,8n,101p,2400b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on out/main.pdf (3 pages, 150682 bytes).
+Output written on out/main.pdf (3 pages, 150667 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
