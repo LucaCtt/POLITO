@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718888217.40863 "/home/luca/Documents/POLITO/statement_of_purpose/main.tex" "out/main.pdf" "main" 1718888218.26289 0
-  "/home/luca/Documents/POLITO/statement_of_purpose/main.tex" 1718572899.95621 1554 55a42b9767989220396c971533a50617 ""
+["pdflatex"] 1719054099.44746 "/home/luca/Documents/POLITO/statement_of_purpose/main.tex" "out/main.pdf" "main" 1719054100.16155 0
+  "/home/luca/Documents/POLITO/statement_of_purpose/main.tex" 1718981692.27703 1555 d81d8389520a11b0abceef27d7186c2c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716849630 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1716849630 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -68,10 +68,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1716849630 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1716889601.79801 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1716889562 7112993 6212c0ec94d2638f770496f03b7c32e9 ""
-  "main.tex" 1718572899.95621 1554 55a42b9767989220396c971533a50617 ""
-  "out/main.aux" 1718888218.18722 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "out/main.out" 1718888218.02056 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sop.tex" 1718887969.59887 3998 2a59e6899d1b58467c28040eb7eda37b ""
+  "main.tex" 1718981692.27703 1555 d81d8389520a11b0abceef27d7186c2c ""
+  "out/main.aux" 1719054100.09422 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "out/main.out" 1719054099.96089 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sop.tex" 1719054094.0276 4672 d50e5eb7bfeebef0864af42eed228dcd ""
   (generated)
   "out/main.aux"
   "out/main.log"
